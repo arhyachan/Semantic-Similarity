@@ -5,3 +5,4 @@ nltk==3.6.2
 jsonify
 gensim
 scipy==1.10.1
+gunicorn==19.7.1
