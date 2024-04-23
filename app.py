@@ -70,7 +70,7 @@ def calculate():
         preprocessed_text1 = preprocess(text1)
         preprocessed_text2 = preprocess(text2)
         
-        model = Doc2Vec.load("/Users/arhya/Desktop/Codinstuff/hellopython/SemanticSimilarity/semanticsim_d2v.model")
+        model = Doc2Vec.load("semanticsim_d2v.model")
 
         s1_vector = model.infer_vector(preprocessed_text1)
         s2_vector = model.infer_vector(preprocessed_text2)
